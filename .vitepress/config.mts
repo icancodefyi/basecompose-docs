@@ -2,15 +2,14 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/docs/",
   title: "BaseCompose",
   description: "Official documentation for BaseCompose",
   ignoreDeadLinks: true,
   head: [
-    ['link', { rel: 'icon', href: '/docs/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
   themeConfig: {
-    logo: '/docs/logo.svg',
+    logo: '/logo.svg',
     editLink: {
       pattern: 'https://github.com/icancodefyi/basecompose/edit/master/basecompose-docs/docs/:path',
       text: 'Edit this page on GitHub'
