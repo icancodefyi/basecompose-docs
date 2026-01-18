@@ -426,7 +426,7 @@ export async function GET(request: Request) {
 ### How do I get help?
 
 1. **Check [FAQ](/faq)** - Most questions answered here
-2. **Read [Documentation](/docs)** - Comprehensive guides
+2. **Read [Documentation](/introduction)** - Comprehensive guides
 3. **GitHub Issues** - Search and create issues
 4. **GitHub Discussions** - Ask questions
 5. **Email:** [contact info]
@@ -501,7 +501,7 @@ See [Development Setup](/dev-setup).
 
 ## More Questions?
 
-- 📖 [Full Documentation](/docs)
+- 📖 [Full Documentation](/introduction)
 - 💬 [GitHub Discussions](https://github.com/icancodefyi/basecompose/discussions)
 - 🐛 [Report Issues](https://github.com/icancodefyi/basecompose/issues)
 - 📧 Contact us

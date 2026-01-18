@@ -223,7 +223,7 @@ For commercial licensing inquiries:
 
 ## Additional Policies
 
-- See [CODE_OF_CONDUCT.md](https://github.com/icancodefyi/basecompose/blob/main/CODE_OF_CONDUCT.md) for community guidelines
+- See [CODE_OF_CONDUCT.md](https://github.com/icancodefyi/basecompose/blob/master/CODE_OF_CONDUCT.md) for community guidelines
 - See [SECURITY.md](/security) for security policy
 - See [Contributing](/contributing) for contribution terms
 
@@ -240,7 +240,7 @@ For commercial licensing inquiries:
 
 ---
 
-For complete license text, see [LICENSE](https://github.com/icancodefyi/basecompose/blob/main/LICENSE) in the repository.
+For complete license text, see [LICENSE](https://github.com/icancodefyi/basecompose/blob/master/LICENSE) in the repository.
 
 ---
 

@@ -8,16 +8,11 @@ export default defineConfig({
   ignoreDeadLinks: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'apple-touch-icon', href: '/logo.png' }],
-    ['meta', { property: 'og:image', content: '/og-image.png' }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:image', content: '/og-image.png' }]
   ],
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/logo.svg',
     editLink: {
-      pattern: 'https://github.com/icancodefyi/basecompose/edit/main/basecompose-docs/docs/:path',
+      pattern: 'https://github.com/icancodefyi/basecompose/edit/master/basecompose-docs/docs/:path',
       text: 'Edit this page on GitHub'
     },
     nav: [

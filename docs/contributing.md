@@ -6,7 +6,7 @@ We welcome contributions from everyone! This guide explains how to contribute to
 
 ## Code of Conduct
 
-We are committed to providing a welcoming and inclusive environment for all contributors. Please read our [CODE_OF_CONDUCT.md](https://github.com/icancodefyi/basecompose/blob/main/CODE_OF_CONDUCT.md) before participating.
+We are committed to providing a welcoming and inclusive environment for all contributors. Please read our [CODE_OF_CONDUCT.md](https://github.com/icancodefyi/basecompose/blob/master/CODE_OF_CONDUCT.md) before participating.
 
 ---
 
