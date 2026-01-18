@@ -1,3 +1,6 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "buildCommand": "pnpm docs:build",
+  "outputDirectory": ".vitepress/dist",
+  "installCommand": "pnpm install"
 }
