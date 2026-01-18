@@ -1,16 +1,16 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir: "docs",
-  title: "BaseCompose ",
-  description: "AI-powered stack generator for full-stack applications.",
+  base: "/docs/",
+  title: "BaseCompose",
+  description: "Official documentation for BaseCompose",
   ignoreDeadLinks: true,
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/docs/favicon.ico' }],
   ],
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/docs/logo.svg',
     editLink: {
       pattern: 'https://github.com/icancodefyi/basecompose/edit/master/basecompose-docs/docs/:path',
       text: 'Edit this page on GitHub'
@@ -76,4 +76,4 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/icancodefyi/basecompose' }
     ]
   }
-})
+});
