@@ -6,6 +6,10 @@ export default defineConfig({
   title: "BaseCompose ",
   description: "AI-powered stack generator for full-stack applications.",
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/icancodefyi/basecompose/edit/main/basecompose-docs/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting-started' },

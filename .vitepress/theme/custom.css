@@ -1,0 +1,115 @@
+/* BaseCompose Custom Theme - Green Accent Branding */
+
+/* Edit this page on GitHub link styling */
+.edit-link {
+  color: #009966 !important;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.edit-link:hover {
+  background-color: rgba(0, 153, 102, 0.1);
+  color: #00cc99 !important;
+}
+
+.edit-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Navigation active states */
+.nav-link.active {
+  color: #009966 !important;
+}
+
+.nav-link.active::after {
+  background-color: #009966 !important;
+}
+
+.nav-link:hover {
+  color: #009966 !important;
+}
+
+/* Sidebar active link */
+.sidebar-link.active {
+  color: #009966 !important;
+  background-color: rgba(0, 153, 102, 0.1);
+  border-left-color: #009966 !important;
+}
+
+.sidebar-link:hover {
+  color: #009966 !important;
+}
+
+/* Active heading anchor */
+.header-anchor {
+  color: #009966;
+}
+
+.header-anchor:hover {
+  color: #00cc99;
+}
+
+/* Button brand styling */
+.VPButton.brand {
+  background-color: #009966 !important;
+  border-color: #009966 !important;
+  color: #fff !important;
+}
+
+.VPButton.brand:hover {
+  background-color: #00cc99 !important;
+  border-color: #00cc99 !important;
+}
+
+.VPButton.alt {
+  border-color: #009966 !important;
+  color: #009966 !important;
+}
+
+.VPButton.alt:hover {
+  background-color: rgba(0, 153, 102, 0.1) !important;
+  color: #00cc99 !important;
+}
+
+/* Link styling - just hover state */
+a {
+  transition: color 0.3s ease;
+}
+
+.main-content a:hover {
+  color: #009966 !important;
+}
+
+/* Code block highlights */
+.line.highlight {
+  background-color: rgba(0, 153, 102, 0.1);
+}
+
+/* Search highlight */
+.search-input:focus {
+  border-color: #009966 !important;
+  box-shadow: 0 0 0 3px rgba(0, 153, 102, 0.1) !important;
+}
+
+/* Focus states */
+*:focus-visible {
+  outline-color: #009966 !important;
+}
+
+/* Selection background */
+::selection {
+  background-color: #009966;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #009966;
+  color: white;
+}
