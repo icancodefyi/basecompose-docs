@@ -2,9 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/docs/",
   srcDir: "docs",
-  title: "BaseCompose ",
-  description: "AI-powered stack generator for full-stack applications.",
+  title: "BaseCompose",
+  description: "Documentation for BaseCompose",
   ignoreDeadLinks: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
