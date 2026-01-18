@@ -1,8 +1,9 @@
-import { defineConfig } from "vitepress";
+import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "BaseCompose",
+  srcDir: "docs",
+  title: "BaseCompose ",
   description: "Official documentation for BaseCompose",
   ignoreDeadLinks: true,
   head: [
@@ -75,4 +76,4 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/icancodefyi/basecompose' }
     ]
   }
-});
+})
